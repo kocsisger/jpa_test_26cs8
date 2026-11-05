@@ -10,8 +10,8 @@ public interface AnimalDAO {
     public List<Animal> getAllAnimals();
 
     //U
-    public void updateAnimal();
+    public void updateAnimal(Animal a);
 
     //D
-    public void deleteAnimal();
+    public void deleteAnimal(Animal a);
 }

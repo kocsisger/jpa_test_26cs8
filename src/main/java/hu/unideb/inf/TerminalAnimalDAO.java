@@ -14,12 +14,12 @@ public class TerminalAnimalDAO implements AnimalDAO{
     }
 
     @Override
-    public void updateAnimal() {
+    public void updateAnimal(Animal a) {
 
     }
 
     @Override
-    public void deleteAnimal() {
+    public void deleteAnimal(Animal a) {
 
     }
 }
