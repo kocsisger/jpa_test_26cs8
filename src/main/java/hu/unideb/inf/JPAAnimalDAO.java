@@ -38,4 +38,11 @@ public class JPAAnimalDAO implements AnimalDAO{
         entityManager.remove(a);
         entityManager.getTransaction().commit();
     }
+
+    @Override
+    public void saveZoo(Zoo zoo) {
+        entityManager.getTransaction().begin();
+        entityManager.persist(zoo);
+        entityManager.getTransaction().commit();
+    }
 }
